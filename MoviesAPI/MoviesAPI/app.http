@@ -1,0 +1,39 @@
+@port = 7145
+
+
+GET https://localhost:{{port}}/movies
+
+###
+
+Get https://localhost:{{port}}/movies/1
+
+###
+POST https://localhost:{{port}}/movies
+Content-type: application/json
+
+{
+  "Name": "The matrix 18",
+  "Price": 30,
+  "ReleaseDate": "2003-03-31",
+  "GenreId": 1
+}
+
+###
+PUT https://localhost:{{port}}/movies/10
+Content-type: application/json
+
+{
+  "Name": "Test Film",
+  "Price": 11,
+  "ReleaseDate": "2000-01-01",
+  "GenreId": 4
+}
+
+
+###
+DELETE https://localhost:{{port}}/movies/40
+
+
+###
+
+GET https://localhost:{{port}}/genres

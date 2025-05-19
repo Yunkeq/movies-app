@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesBlazor", "MoviesBlazor\MoviesBlazor.csproj", "{D6D6D5E5-431C-4C25-9608-39CDEADFF799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6D6D5E5-431C-4C25-9608-39CDEADFF799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6D6D5E5-431C-4C25-9608-39CDEADFF799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6D6D5E5-431C-4C25-9608-39CDEADFF799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6D6D5E5-431C-4C25-9608-39CDEADFF799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3BB14904-E8E8-4662-9129-43D63CE6E5B5}
+	EndGlobalSection
+EndGlobal
